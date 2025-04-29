@@ -5,6 +5,8 @@ This is NodeJS project
 
 
 ## Installation instructions
-* install all project dependencies with `npm install`
+* First install backend with  `npm install`
+* Second install frontend with `cd frontend` and `npm install`
+* get back one level and run following commands: `cd ..`
 * start the development backend server with `npm run start-backend`
 * start the development frontend server with `npm run start-frontend`
