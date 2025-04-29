@@ -1,0 +1,32 @@
+{
+  "name": "shop-mern",
+  "version": "1.0.0",
+  "description": "Shop MERN Project",
+  "main": "index.js",
+  "scripts": {
+    "start-backend": "nodemon backend/server.js",
+    "start-frontend": "npm run dev --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marjan-shuplinoski/shop-mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/marjan-shuplinoski/shop-mern/issues"
+  },
+  "homepage": "https://github.com/marjan-shuplinoski/shop-mern#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
